@@ -1,0 +1,13 @@
+/* Override only the success button color */
+.app-btn-success {
+  background-color: var(
+    --color-brand-green
+  ) !important; /* replace with your hex */
+  border-color: var(--color-brand-green) !important;
+}
+
+/* Hover effect */
+.app-btn-success:not(.p-disabled):hover {
+  background-color: var(--color-light-icon-success-green) !important;
+  border-color: var(--color-light-icon-success-green) !important;
+}

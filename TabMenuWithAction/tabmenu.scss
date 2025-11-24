@@ -1,0 +1,23 @@
+.tabmenu {
+  .p-tabmenu {
+    position: relative;
+    font-size: 12px;
+  }
+  .p-tabmenu .p-tabmenu-nav {
+    border-radius: 4px;
+    background: transparent;
+  }
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    padding: 0.85rem;
+  }
+
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    background: transparent;
+  }
+
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+    background: transparent;
+  }
+}
+
+/* Optional: ensures the button aligns cleanly on top of TabMenu bar */

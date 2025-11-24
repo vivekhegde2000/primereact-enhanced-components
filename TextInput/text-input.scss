@@ -1,0 +1,12 @@
+.input-text {
+  &__label {
+    color: var(--color-text-input-label);
+    font-weight: 400;
+  }
+}
+
+.autocomplete-input {
+  .p-autocomplete-multiple-container {
+    width: 100%;
+  }
+}

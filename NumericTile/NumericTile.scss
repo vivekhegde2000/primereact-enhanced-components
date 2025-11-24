@@ -1,0 +1,15 @@
+.numeric-tile {
+  border: none;
+  min-width: 200px;
+  width: fit-content;
+
+  .icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+}
+
+.p-card .p-card-content {
+  padding: 0;
+}
